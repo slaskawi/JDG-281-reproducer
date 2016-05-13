@@ -16,7 +16,9 @@
         <dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se</artifactId>
-            <version>2.3.4.Final</version>
+            <!-- FIX: Upgrade version -->
+            <!-- <version>2.3.4.Final</version> -->
+            <version>2.2.0.SP1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
